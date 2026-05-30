@@ -79,15 +79,15 @@ with tab[1]:
             
             with st.container(border=True):
                 st.markdown("<h4 style='text-align:center'>Початок роботи з Cisco Packet Tracer</h4>", unsafe_allow_html=True)
-                st.image("D:/site/image/5sem/cyber/cisco/Початок роботи з Cisco Packet Tracer.png", use_container_width=True)
+                st.image("https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/cisco/Початок роботи з Cisco Packet Tracer.png", use_container_width=True)
 
             with st.container(border=True):
                 st.markdown("<h4 style='text-align:center'>Exploring Networking with Cisco Packet Tracer</h4>", unsafe_allow_html=True)
-                st.image("D:/site/image/5sem/cyber/cisco/Exploring Networking with Cisco Packet Tracer.png", use_container_width=True)
+                st.image("https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/cisco/Exploring Networking with Cisco Packet Tracer.png", use_container_width=True)
 
             with st.container(border=True):
                 st.markdown("<h4 style='text-align:center'>Exploring Internet of Things with Cisco Packet Tracer</h4>", unsafe_allow_html=True)
-                st.image("D:/site/image/5sem/cyber/cisco/Exploring Internet of Things with Cisco Packet Tracer.png", use_container_width=True)
+                st.image("https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/cisco/Exploring Internet of Things with Cisco Packet Tracer.png", use_container_width=True)
             
 
 # __________________________HackTheBox__________________________
