@@ -57,7 +57,7 @@ with tab[1]:
             st.session_state.main = "cyber"
 
     with disc2:
-        st.link_button("TryHackMe", "https://tryhackme.com/p/migor2k05", use_container_width=True, key="thm 5")
+        st.link_button("ПКтаС", "https://tryhackme.com/p/migor2k05", use_container_width=True, key="thm 5")
 
 # __________________________Кібербезпека__________________________
     if st.session_state.main == "cyber":
