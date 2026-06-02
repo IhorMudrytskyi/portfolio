@@ -1,6 +1,7 @@
 import streamlit as st
+from streamlit_pdf_viewer import pdf_viewer
 
-tab = st.tabs(["Головна", "5 семестр", "6 семестр"])
+tab = st.tabs(["Головна", "5 семестр", "6 семестр", "Сертифікація"])
 
 if "main" not in st.session_state:
     st.session_state.main = "home"
@@ -188,3 +189,24 @@ with tab[2]:
                 with st.container(border=True):
                     st.markdown(f"<h4 style='text-align:center'>{name_pico_6sem[i]}</h4>", unsafe_allow_html=True)
                     st.image(image_pico_6sem[i], use_container_width=True)
+
+with tab[3]:
+    from cert import name, image, name2, image2
+        
+    col = st.columns(2)
+        
+    for i in range(0,len(name2)):
+         with col[i%2]:
+            with st.container(border=True):
+                st.markdown(f"<div style='text-align:center; font-size:14px; display: flex;  justify-content:center; height: 20px;'>{name2[i]}</div>", unsafe_allow_html=True)
+                st.text("")
+                st.text("")
+                pdf_viewer(image2[i], height=250, width="100%")            
+
+    for i in range(0, len(name)):
+        with col[i%2]:
+            with st.container(border=True):
+                st.markdown(f"<div style='text-align:center; font-size:14px; display: flex;  justify-content:center; height: 20px;'>{name[i]}</div>", unsafe_allow_html=True)
+                st.text("")
+                st.text("")
+                pdf_viewer(image[i], height=400, width="100%")
