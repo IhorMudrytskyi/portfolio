@@ -16,7 +16,7 @@ name = [
 image = []
 
 for i in range(0, len(name)):
-    image.append("https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/cert/" + name[i] + ".pdf")
+    image.append("image/cert/" + name[i] + ".pdf")
 
 name2 = ["A Beginner_s Guide to Linux Kernel Development",
          "Android Bug Bounty Hunting",
@@ -40,4 +40,4 @@ name2 = ["A Beginner_s Guide to Linux Kernel Development",
 image2 = []
 
 for i in range(0, len(name2)):
-    image2.append("https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/cert/" + name2[i] + ".pdf")
+    image2.append("image/cert/" + name2[i] + ".pdf")
