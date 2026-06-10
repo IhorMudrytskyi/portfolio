@@ -70,7 +70,7 @@ link_htb_chal_5sem = ["https://labs.hackthebox.com/achievement/challenge/1935867
 # __________________________HackTheBox Modules 5 семестр__________________________
 image_htb_mod_5sem = ["https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/htb/mod/Setting Up.png",
                       "https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/htb/mod/Linux Fundamentals.png",
-                      "https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/htb/mod/Windows Fundamentals.jpg",
+                      "https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/htb/mod/Windows Fundamentals.png",
                       "https://raw.githubusercontent.com/IhorMudrytskyi/portfolio/main/image/5sem/cyber/htb/mod/MacOS Fundamentals.png"]
 
 name_htb_mod_5sem = ["Setting Up",
